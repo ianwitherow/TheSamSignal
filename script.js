@@ -32,7 +32,7 @@ function TextSam(pin, message) {
 			}, 5000);
 		} else {
 			//Did not send. Probably have to wait until you can send again.
-			error.html("The Sam Signal failed!\n\nDouble check the PIN. If you sent the Sam Signal recently, you'll need to wait 5 minutes before sending it again.").show();
+			error.html("The Sam Signal failed! Double check the PIN. If you sent the Sam Signal recently, you'll need to wait 5 minutes before sending it again.").show();
 		}
 	});
 }
