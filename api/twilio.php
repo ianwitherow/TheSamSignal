@@ -5,7 +5,7 @@
 	error_reporting(-1);
 
 	require "vendor/twilio/sdk/Services/Twilio.php";
-	$configs = include('./config.php');
+	$configs = include('../config.php');
 
 	session_start();
 
