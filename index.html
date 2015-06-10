@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="favicon" href="/favicon.ico" />
+
+    <title>The Sam Signal!</title>
+
+	 <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"></link>
+	 <link rel="stylesheet" type="text/css" href="style.css"></link>
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	 <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+		  <div class="spotlight"></div>
+		  <div id="clouds">
+			  <div class="cloud x1"></div>
+			  <div class="cloud x2"></div>
+			  <div class="cloud x3"></div>
+			  <div class="cloud x4"></div>
+			  <div class="cloud x5"></div>
+		  </div>
+		  <h1>
+			  The Sam Signal! <small>.com</small>
+		  </h1>
+
+		  <div class="blurb">
+			  I'm out there. Lurking in the shadows, doing good for the company.
+			  <br />
+			  I must be out there in the night. Staying vigilant.
+			  <br />
+			  Wherever business needs to be done, I'm there.
+			  <br />
+			  Wherever there's synergizing or streamlining to be implemented, I'm there.
+			  <br />
+			  But sometimes I'm not, because I'm out in the night. Staying vigilant.
+			  <br />
+			  Watching. Lurking. Opening kimonos. Assessing performance. Sleeping.
+			  <br />
+			  No, I can't sleep. You sleep. I'm awake.
+			  <br />
+			  I don't sleep, I don't blink.
+			  <br />
+			  Am I a bird? No. I'm Sam. I am Sam-man.
+			  <br />
+			  <br />
+			  Or am I?
+			  <br />
+			  ...Yes. I am Sam-man.
+		  </div>
+		  <div class="sam-texted">
+			  Sam has been notified!
+		  </div>
+		  <div class="modal" id="signal-modal">
+		  	<div class="modal-dialog">
+		  		<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Shine the Sam Signal</h3>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="signal-message">Message</label>
+							<input type="text" id="signal-message" class="form-control" placeholder="Where is the Sam needed?"></textarea>
+						</div>
+						<div class="form-group">
+							<label for="signal-pin">PIN</label>
+							<div class="row">
+								<div class="col-sm-6">
+									<input id="signal-pin" type="password" class="form-control" />
+								</div>
+							</div>
+						</div>
+						<div class="alert alert-danger error" style="display:none;"></div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary send-sam-signal">Signal!</button>
+					</div>
+		  		</div>
+		  	</div>
+		  </div>
+
+		  <script type="text/javascript" src="/bower_components/jquery-legacy/dist/jquery.min.js"></script>
+		  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		  <script type="text/javascript" src="/script.js"></script>
+  </body>
+</html>
+

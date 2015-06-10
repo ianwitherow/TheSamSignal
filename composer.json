@@ -1,0 +1,13 @@
+{
+    "name": "ian/sam-signal",
+    "description": "The Sam Signal",
+    "authors": [
+        {
+            "name": "Ian Witherow",
+            "email": "ianwitherow@gmail.com"
+        }
+    ],
+	 "require": {
+		 "twilio/sdk": "dev-master"
+	 }
+}

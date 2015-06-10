@@ -1,0 +1,20 @@
+{
+  "name": "SamSignal",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ianwitherow/The-Sam-Signal",
+  "authors": [
+    "Ian Witherow <ianwitherow@gmail.com>"
+  ],
+  "description": "The Sam Signal",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-legacy": "jquery#^1"
+  }
+}
