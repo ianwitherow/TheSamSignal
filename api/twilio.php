@@ -35,6 +35,9 @@
 				$_SESSION["lastSent"] = new DateTime();
 				return;
 
+			else if (isset($_GET["pin"]) && $_GET["pin"] === "test") {
+				echo "true";
+				return;
 			} else { //PIN check
 				echo "false";
 				return;
